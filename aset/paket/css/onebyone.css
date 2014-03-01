@@ -1,0 +1,208 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+a, a:visited{
+  border: none;
+  outline: none;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: relative;
+  z-index: 10;
+  margin-top: 20px;
+}
+
+/* Remove border and change up box shadow for more contrast */
+.navbar .navbar-inner {
+  border: 0;
+  -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+     -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+          box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+
+/* Downsize the brand/project name a bit */
+.navbar .brand {
+  padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+  font-size: 16px;
+  font-weight: bold;
+  /*text-shadow: 0 -1px 0 rgba(0,0,0,.5);*/
+}
+
+/* Navbar links: increase padding for taller navbar */
+.navbar .nav > li > a {
+  padding: 15px 20px;
+}
+
+/* Offset the responsive button for proper vertical alignment */
+.navbar .btn-navbar {
+  margin-top: 10px;
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+}
+
+.carousel .container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+}
+
+.carousel-control {
+  background-color: transparent;
+  border: 0;
+  font-size: 100px;
+  margin-top: 0;
+  /*text-shadow: 0 1px 1px rgba(0,0,0,.4);*/
+}
+
+/*.carousel .item {
+  height: 500px;
+}
+*/
+.carousel .item > img {
+  width: 100%;
+  height: auto;
+}
+.carousel .carousel-caption {
+  background-color: transparent;
+  position: static;
+  max-width: 550px;
+  padding: 0 16%;
+  margin-bottom: 12%;
+}
+.carousel .carousel-caption h1,
+.carousel .carousel-caption .lead {
+  margin: 0;
+  line-height: 1.25;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel .carousel-caption .btn {
+  margin-top: 10px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .span4 {
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .span4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 979px) {
+
+  .container.navbar-wrapper {
+    /*margin-bottom: 0;*/
+    /*width: auto;*/
+  }
+  .navbar-inner {
+    border-radius: 0;
+    /*margin: -20px 0;*/
+  }
+
+  /*.carousel-caption {
+    width: 75%;
+    padding: 0 40px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+*/
+  .carousel .item {
+    /*height: 500px;*/
+  }
+  .carousel img {
+    width: auto;
+    /*height: 500px;*/
+  }
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .carousel-caption .lead,
+  .carousel-caption .btn {
+    /*font-size: 16px;*/
+  }
+
+}
+
+
+@media (max-width: 767px) {
+
+  .carousel-caption {
+    margin-bottom: 5%;
+  }
+  .carousel-caption h1 {
+    font-size: 24px;
+  }
+  .carousel-caption .lead,
+  .carousel-caption .btn {
+    font-size: 14px;
+  }
+
+}
+@media (max-width: 700px) {
+  .carousel-caption {
+    display: none;
+  }
+
+
+}
+@media (max-width: 480px) {
+  .carousel-caption {
+    display: none;
+  }
+
+
+}
+
+
+.span4 .front {
+  z-index: 900;
+  height: 240px;
+}
+
+.span4 .back {
+  position: relative;
+  margin: 0;
+  height: 240px;
+  margin-top: -240px;
+  color: #333;
+  background: #FFF;
+  z-index: 800;
+  text-align: center;
+}
+
+ 

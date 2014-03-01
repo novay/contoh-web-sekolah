@@ -1,0 +1,103 @@
+@font-face{ 
+	font-family: "Open Sans"; 
+	src: url(fonts/OpenSans-Light.ttf); 
+	font-weight:500; 
+	font-style:normal; 
+}
+
+body {
+	background-image: url(../img/bg.png); 
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', 'sans-serif';
+	border-top: 4px solid #175387;
+}
+
+#header {
+	background-color: white;
+}
+
+.logo {
+	overflow:visible;
+}
+
+.pengumuman {
+	padding: 0px 0 0;
+}
+
+#footer {
+	height: 50px;
+	padding: 17px;
+}
+
+.item {
+	background-color:#fff;
+	border-radius: 4px;
+	padding-top: 50px;
+}
+
+.hold-breadcrumbs {
+	border-bottom: .2em solid lightgrey;
+padding: 15px 0 5px;
+margin: 0 0 20px;
+}
+
+/* judul-halaman */
+.judul-halaman {
+  background: #0E487A; padding: 33px 0 22px;
+}
+.judul-halaman h1, .judul-halaman .title {
+  font-weight: 100; color: #ffffff; font-size: 52px;
+  line-height: 54px; letter-spacing: 1px; margin: 0 0 15px; font-family:'Open Sans', sans-serif;
+}
+
+@media (max-width: 774px) {
+  .judul-halaman {
+    padding: 20px 0 10px;
+  }
+  .judul-halaman h1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: 0 0 15px;
+  }
+}
+
+.crewman.crewman-center .sambutan {
+	background: white;
+	font-size: 1em;
+	border-bottom: .2em solid grey;
+	border-radius: .33em;
+}
+.crewman.crewman-center .sambutan:hover {
+	cursor:pointer;
+	border-bottom: .2em solid lightblue;
+}
+
+.blockquote-about .block {
+	background: white;
+	font-size: 1em;
+	border-bottom: .2em solid lightgrey;
+	border-radius: .33em;
+}
+.blockquote-about .block:hover {
+	cursor:pointer;
+	border-bottom: .2em solid green;
+}
+
+.link-penting {
+	text-align: center;
+	background: #5a5a5a;
+}
+
+.link-penting h2 {
+	color:#fff;
+	margin-top: 30px;
+}
+
+.gambar-gerak {
+	margin-top:60px;
+}
+
+.gambar-gerak .title {
+	font-family:'Open Sans', sans-serif;
+}
