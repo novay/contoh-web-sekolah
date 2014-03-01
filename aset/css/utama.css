@@ -101,3 +101,25 @@ margin: 0 0 20px;
 .gambar-gerak .title {
 	font-family:'Open Sans', sans-serif;
 }
+
+.visi-sekolah {
+	background:white;
+	padding:30px 30px 30px 40px;
+	border-bottom: .2em solid grey;
+	border-radius: .33em;
+}
+
+.visi-sekolah:hover {
+	border-bottom: .2em solid lightblue;
+}
+
+.misi-sekolah {
+	background:white;
+	padding:30px 30px 30px 40px;
+	border-bottom: .2em solid grey;
+	border-radius: .33em;
+}
+
+.misi-sekolah:hover {
+	border-bottom: .2em solid pink;
+}
